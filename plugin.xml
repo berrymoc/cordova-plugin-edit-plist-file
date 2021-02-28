@@ -56,6 +56,12 @@
         </config-file>
         <!-- /camera -->
         
+        <!-- microphone -->
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist" mode="merge">
+            <string>O microfone de seu celular será utilizado para gravar em áudio e gravar as informações juntamente com o registro de mudança.</string>
+        </config-file>
+        <!-- /microphone -->
+        
     </platform>
     
 </plugin>
