@@ -44,7 +44,23 @@
             </array>
         </config-file>
         
+        <!-- camera -->
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist" mode="merge">
+            <string>A câmera de seu celular será utilizada para registar em fotos áreas dentro da empresa que permitirão abrir o registro de mudança.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist" mode="merge">
+            <string>A permissão de acesso à biblioteca de fotos é utilizada para salvar fotos dos registros de mudança diretamente em sua biblioteca de fotos.</string>
+        </config-file>
+        <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist" mode="merge">
+            <string>A permissão de acesso à biblioteca de fotos é utilizada para selecionar fotos que foram produzidas anteriormente para abrir o registro de mudança.</string>
+        </config-file>
+        <!-- /camera -->
         
+        <!-- microphone -->
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist" mode="merge">
+            <string>O microfone de seu celular será utilizado para gravar em áudio e gravar as informações juntamente com o registro de mudança.</string>
+        </config-file>
+        <!-- /microphone -->
         
     </platform>
     
